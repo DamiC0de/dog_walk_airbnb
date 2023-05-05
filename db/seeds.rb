@@ -19,7 +19,7 @@ dog_sitter3 = DogSitter.create(name: 'Charlie', city: city2)
 # Dogs
 dog1 = Dog.create(name: 'Max', city: city1)
 dog2 = Dog.create(name: 'Buddy', city: city1)
-dog3 = Dog.create(name: 'Bella', city: city2)
+dog3 = Dog.create(name: 'Raid', city: city2)
 
 # Strolls
 stroll1 = Stroll.create(date: DateTime.now, dog: dog1, dog_sitter: dog_sitter1)
